@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <title>Le Lotus Bungalow</title>
 </head>
 
 <body class="bg-gray-200">
     <!-- ----------- Header ---------- -->
-    <header id="hero" class="">
-        <div id="brand" class="flex flex-row justify-between items-center w-full h-1/6 brand-bg">
+    <header id="hero" class="relative">
+        <div id="brand" class="fixed flex flex-row justify-evenly items-center w-full h-20 lg:h-28 md:h-24 bg-original">
             <!-- ---------- Side Navigation ---------- -->
-            <div id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav shadow-xl shadow-blue-950">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#">Home</a>
                 <a href="#">Bungalows</a>
@@ -30,16 +31,21 @@
             </svg>
             <!-- ---------- Le lotus bungalow : logo ---------- -->
             <a href="index.html" class="h-full w-1/2 ">
-                <img src="assets/images/Logo sans fond.png" alt="logo 'Le lotus Bungalow'" class="logo">
+                <img src="assets/images/Logo sans fond.png" alt="logo 'Le lotus Bungalow'" class="w-24 md:w-28 lg:w-32 mx-auto mt-2 ">
             </a>
 
-            <!-- <button type="button">Book</button> -->
+            <!-- ---------- A button for booking ---------- -->
+            <button type="button" class="bg-violet-600 btn-size size-fit">
+                Book Now
+            </button>
         </div>
 
     </header>
 
 
-
+    <main class="size-full bg-white">
+        <div class="w-full h-dvh"> Test </div>
+    </main>
 
     <script src="assets/js/index.js"></script>
 </body>

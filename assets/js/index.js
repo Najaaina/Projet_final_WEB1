@@ -6,3 +6,14 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+// script.js
+window.addEventListener('scroll', function() {
+    const brand = document.getElementById('brand');
+    
+    if(window.scrollY) {
+        brand.classList.add('bg-scroll');
+    } else {
+        brand.classList.remove('bg-scroll');
+    }
+});
