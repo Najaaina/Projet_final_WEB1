@@ -11,42 +11,36 @@
 </head>
 
 <body class="bg-gray-200">
-    <!-- ----------- Header ---------- -->
-    <header id="hero" class="relative">
+    <!-- Header  -->
+    <header id="hero" class="relative w-full h-screen">
         <div id="brand" class="fixed flex flex-row justify-evenly items-center w-full h-20 lg:h-28 md:h-24 bg-original">
-            <!-- ---------- Side Navigation ---------- -->
-            <div id="mySidenav" class="sidenav shadow-xl shadow-blue-950">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">Home</a>
-                <a href="#">Bungalows</a>
-                <a href="#">Pricing</a>
-                <a href="#">Contact</a>
+            <!--  Side Navigation  -->
+            <div id="mySidenav" class="h-full w-0 fixed z-10 top-0 left-0 overflow-x-hidden pt-16  shadow-2xl bg-oxford_blue shadow-oxford_blue">
+                <a href="javascript:void(0)" class="absolute top-0 right-7 text-5xl ml-12 text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" onclick="closeNav()">&times;</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Home</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Bungalows</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Pricing</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Contact</a>
             </div>
-            <!-- ---------- Open Navigation Trigger ---------- -->
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30"
-                style="fill: #f0f0f0;;" onclick="openNav()" class="burger-menu" id="burger">
+            <!--  Open Navigation Trigger  -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 72 72"
+                style="fill:#FFFFFF;" class="ml-4 cursor-pointer" onclick="openNav()">
                 <path
-                    d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z">
+                    d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z">
                 </path>
             </svg>
-            <!-- ---------- Le lotus bungalow : logo ---------- -->
+            <!--  Le lotus bungalow : logo  -->
             <a href="index.html" class="h-full w-1/2 ">
-                <img src="assets/images/Logo sans fond.png" alt="logo 'Le lotus Bungalow'" class="w-24 md:w-28 lg:w-32 mx-auto mt-2 ">
+                <img src="assets/images/Logo_sans_fond.png" alt="logo 'Le lotus Bungalow'" class="w-24 md:w-28 lg:w-40 mx-auto mt-2 ">
             </a>
 
-            <!-- ---------- A button for booking ---------- -->
-            <button type="button" class="bg-violet-600 btn-size size-fit">
+            <!--  A button for booking  -->
+            <button type="button" class="mx-40 bg-white w-24 md:w-28 lg:w-32 xl:w-36 h-10 sm:h-12 rounded-md text-base hover:bg-tropic_indigo transition"> <!-- TODO fix the booking button-->
                 Book Now
             </button>
         </div>
 
     </header>
-
-
-    <main class="size-full bg-white">
-        <div class="w-full h-dvh"> Test </div>
-    </main>
-
     <script src="assets/js/index.js"></script>
 </body>
 
