@@ -7,20 +7,29 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
     <title>Le Lotus Bungalow</title>
 </head>
 
 <body class="bg-gray-200">
     <!-- Header  -->
     <header id="hero" class="relative w-full h-screen">
-        <div id="brand" class="fixed flex flex-row justify-evenly items-center w-full h-20 lg:h-28 md:h-24 bg-original">
+        <div id="brand"
+            class="fixed flex flex-row justify-evenly items-center w-full h-20 lg:h-28 md:h-24 bg-original z-50">
             <!--  Side Navigation  -->
-            <div id="mySidenav" class="h-full w-0 fixed z-10 top-0 left-0 overflow-x-hidden pt-16  shadow-2xl bg-oxford_blue shadow-oxford_blue">
-                <a href="javascript:void(0)" class="absolute top-0 right-7 text-5xl ml-12 text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" onclick="closeNav()">&times;</a>
-                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Home</a>
-                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Bungalows</a>
-                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Pricing</a>
-                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block transition" href="#">Contact</a>
+            <div id="mySidenav"
+                class="h-full w-0 fixed z-10 top-0 left-0 overflow-x-hidden pt-16 shadow-2xl bg-oxford_blue shadow-oxford_blue">
+                <a href="javascript:void(0)"
+                    class="absolute top-0 right-7 text-5xl ml-12 text-white hover:text-tropic_indigo p-2 no-underline block  transition "
+                    onclick="closeNav()">&times;</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block   transition ml-4 "
+                    href="#">Accueil</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block   transition ml-4 "
+                    href="#">Gallérie</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block   transition ml-4 "
+                    href="#">Tarifs</a>
+                <a class="text-white hover:text-tropic_indigo p-2 no-underline text-2xl block   transition ml-4 "
+                    href="#">Contact</a>
             </div>
             <!--  Open Navigation Trigger  -->
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 72 72"
@@ -31,17 +40,586 @@
             </svg>
             <!--  Le lotus bungalow : logo  -->
             <a href="index.html" class="h-full w-1/2 ">
-                <img src="assets/images/Logo_sans_fond.png" alt="logo 'Le lotus Bungalow'" class="w-24 md:w-28 lg:w-40 mx-auto mt-2 ">
+                <img src="./assets/images/Logo_sans_fond.png" alt="logo 'Le lotus Bungalow'"
+                    class="w-28 md:w-28 lg:w-40 mx-auto mt-2 ">
             </a>
 
             <!--  A button for booking  -->
-            <button type="button" class="mx-40 bg-white w-24 md:w-28 lg:w-32 xl:w-36 h-10 sm:h-12 rounded-md text-base hover:bg-tropic_indigo transition"> <!-- TODO fix the booking button-->
-                Book Now
+            <button type="button"
+                class="-mr-5 bg-white w-24 md:w-28 lg:w-32 xl:w-36 h-10 sm:h-12 rounded-md text-base hover:bg-fuchsia transition">
+                Réserver
             </button>
         </div>
-
     </header>
-    <script src="assets/js/index.js"></script>
+
+    <main class="z-0 overflow-hidden">
+        <section>
+            <section id="Collection">
+                <h2 class="text-center text-black">Collection</h2>
+
+
+                <div class="Collection_intro">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor nihil tempore expedita
+                        adipisci maiores laboriosam dignissimos ea similique ut fugiat magnam, perferendis molestias
+                        neque accusantium nisi ab possimus corrupti.</p>
+                    <img src="./assets/LE LOTUS/Autre photo/bg.jpg" alt="">
+                </div>
+
+
+                <div class="colle">
+                    <div class="imag"><img src="./assets/LE LOTUS/Autre photo/first.jpg" alt=""></div>
+                    <div class="imag"><img src="./assets/LE LOTUS/Autre photo/footer.jpg" alt=""></div>
+                    <div class="imag"><img
+                            src="./assets/LE LOTUS/Autre photo/405200516_856236149539052_360802718447433710_n.jpg"
+                            alt="">
+                    </div>
+                    <div class="imag"><img src="./assets/LE LOTUS/Autre photo/footer1.jpg" alt=""></div>
+                    <div class="imag"><img src="./assets/LE LOTUS/Autre photo/footer2.jpg" alt=""></div>
+                    <div class="imag"><img src="./assets/LE LOTUS/Autre photo/footer2.jpg" alt=""></div>
+                    <div class="imag"><img src="./assets/LE LOTUS/Autre photo/footer2.jpg" alt=""></div>
+
+                </div>
+
+
+            </section>
+        </section>
+
+
+        <section>
+
+            <section id="Bungalow">
+
+                <div class="Bunga_intro">
+                    <h2 class="text-white text-center">Bungalow</h2>
+                    <p class="text-white text-center">Our bungalow is the perfect choice for your next getaway. With
+                        its prime
+                        location, cozy interiors, and personalized hospitality, <br>it's a retreat you won't want to
+                        miss out on.
+                        Visit our website to book your stay now!</p>
+                </div>
+
+                <div class="bungalows">
+                    <div class="bunga ">
+                        <div class="bunga_text">
+                            <h2 class="text-center"> Bungalow N°1</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque odit obcaecati
+                                eveniet tempore esse,
+                                incidunt <br> sunt possimus reiciendis dolorem fuga repellat modi officia, rerum
+                                quam fugiat eligendi sint
+                                a. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque
+                                similique, <br>qui
+                                inventore maxime, porro animi vitae sapiente corrupti, quam obcaecati? Repellendus
+                                officiis distinctio
+                                necessitatibus laudantium vel sunt quo corporis?</p>
+                            <div class="all_image flex flex-row justify-around gap-2">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_2.JPG"
+                                    alt="image d un bugalow de l interieur">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_3 (1).JPG"
+                                    alt="image de la douche du bungalow">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_4.JPG" alt="">
+
+                            </div>
+                        </div>
+                        <div class="bunga_image">
+                            <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_1.JPG" alt="">
+                        </div>
+
+                    </div>
+
+                    <button>10000 Ar</button>
+
+
+                </div>
+
+
+
+                <div class="bungalows">
+                    <div class="bunga ">
+                        <div class="bunga_text">
+                            <h2 class="text-center"> Bungalow N°2</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque odit obcaecati
+                                eveniet tempore esse,
+                                incidunt <br> sunt possimus reiciendis dolorem fuga repellat modi officia, rerum
+                                quam fugiat eligendi sint
+                                a. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque
+                                similique, <br>qui
+                                inventore maxime, porro animi vitae sapiente corrupti, quam obcaecati? Repellendus
+                                officiis distinctio
+                                necessitatibus laudantium vel sunt quo corporis?</p>
+                            <div class="all_image flex flex-row justify-around gap-2">
+                                <img src="./assets/LE LOTUS/BUNGALOW_02/BUNGALOW_02_2.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_02/BUNGALOW_02_3.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_02/BUNGALOW_02_4.JPG" alt="">
+
+                            </div>
+                        </div>
+                        <div class="bunga_image">
+                            <img src="./assets/LE LOTUS/BUNGALOW_02/BUNGALOW_02_1.JPG" alt="">
+                        </div>
+
+                    </div>
+
+                    <button>10000 Ar</button>
+
+
+                </div>
+
+
+
+
+                <div class="bungalows">
+                    <div class="bunga ">
+                        <div class="bunga_text">
+                            <h2 class="text-center"> Bungalow N°3</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque odit obcaecati
+                                eveniet tempore esse,
+                                incidunt <br> sunt possimus reiciendis dolorem fuga repellat modi officia, rerum
+                                quam fugiat eligendi sint
+                                a. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque
+                                similique, <br>qui
+                                inventore maxime, porro animi vitae sapiente corrupti, quam obcaecati? Repellendus
+                                officiis distinctio
+                                necessitatibus laudantium vel sunt quo corporis?</p>
+                            <div class="all_image flex flex-row justify-around gap-2">
+                                <img src="./assets/LE LOTUS/BUNGALOW_04/BUNGALOW_04_2.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_04/BUNGALOW_04_3.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_04/" alt="">
+
+                            </div>
+                        </div>
+                        <div class="bunga_image">
+                            <img src="./assets/LE LOTUS/BUNGALOW_04/BUNGALOW_04_1.JPG" alt="">
+                        </div>
+
+                    </div>
+
+                    <button>10000 Ar</button>
+
+
+                </div>
+
+
+
+
+
+                <div class="bungalows">
+                    <div class="bunga ">
+                        <div class="bunga_text">
+                            <h2 class="text-center"> Bungalow N°4</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque odit obcaecati
+                                eveniet tempore esse,
+                                incidunt <br> sunt possimus reiciendis dolorem fuga repellat modi officia, rerum
+                                quam fugiat eligendi sint
+                                a. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque
+                                similique, <br>qui
+                                inventore maxime, porro animi vitae sapiente corrupti, quam obcaecati? Repellendus
+                                officiis distinctio
+                                necessitatibus laudantium vel sunt quo corporis?</p>
+                            <div class="all_image flex flex-row justify-around gap-2">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_2.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_3 (1).JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_4.JPG" alt="">
+
+                            </div>
+                        </div>
+                        <div class="bunga_image">
+                            <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_1.JPG" alt="">
+                        </div>
+
+                    </div>
+
+                    <button>10000 Ar</button>
+
+
+                </div>
+
+
+
+
+
+                <div class="bungalows">
+                    <div class="bunga">
+                        <div class="bunga_text">
+                            <h2 class="text-center"> Bungalow N°5</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque odit obcaecati
+                                eveniet tempore esse,
+                                incidunt <br> sunt possimus reiciendis dolorem fuga repellat modi officia, rerum
+                                quam fugiat eligendi sint
+                                a. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque
+                                similique, <br>qui
+                                inventore maxime, porro animi vitae sapiente corrupti, quam obcaecati? Repellendus
+                                officiis distinctio
+                                necessitatibus laudantium vel sunt quo corporis?</p>
+                            <div class="all_image flex flex-row justify-around gap-2">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_2.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_3 (1).JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_4.JPG" alt="">
+
+                            </div>
+                        </div>
+                        <div class="bunga_image">
+                            <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_1.JPG" alt="">
+                        </div>
+
+                    </div>
+
+                    <button>10000 Ar</button>
+
+
+                </div>
+
+
+
+
+
+                <div class="bungalows">
+                    <div class="bunga ">
+                        <div class="bunga_text">
+                            <h2 class="text-center"> Bungalow N°6</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cumque odit obcaecati
+                                eveniet tempore esse,
+                                incidunt <br> sunt possimus reiciendis dolorem fuga repellat modi officia, rerum
+                                quam fugiat eligendi sint
+                                a. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit doloremque
+                                similique, <br>qui
+                                inventore maxime, porro animi vitae sapiente corrupti, quam obcaecati? Repellendus
+                                officiis distinctio
+                                necessitatibus laudantium vel sunt quo corporis?</p>
+                            <div class="all_image flex flex-row justify-around gap-2">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_2.JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_3 (1).JPG" alt="">
+                                <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_4.JPG" alt="">
+
+                            </div>
+                        </div>
+                        <div class="bunga_image">
+                            <img src="./assets/LE LOTUS/BUNGALOW_01/BUNGALOW_01_1.JPG" alt="">
+                        </div>
+
+                    </div>
+
+                    <button>10000 Ar</button>
+
+
+                </div>
+
+
+
+
+
+            </section>
+
+        </section>
+
+
+
+
+
+
+        <section id="Restau">
+
+
+
+            <div class="intro">
+                <h2> Restaurant</h2>
+
+
+                <div class="Restau_description">
+
+                    <div class="description_text">
+                        <h3>Discover luxury's taste</h3>
+                        <p class="pt-1"> We provide to give the best food ever. <br> Wouldn't you taste if it was
+                            made just for you ?
+                            <br>High quality is our nickname. Trust us and forgive your tongue for not having tasted
+                            that
+                            before.
+                        </p>
+                    </div>
+
+                    <div class="decription_image">
+                        <img src="./assets/LE LOTUS/PLATS/PLATS_24.JPG" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <section class="Restaurant">
+                <div class="Food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_11.JPG" alt="">
+
+                    <div>
+                        <h3>Baked Fish</h3>
+                        <div class="notes">
+                            <div>a</div>
+                            <div>a</div>
+                            <div>a</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_30.JPG" alt="">
+
+                    <div>
+                        <h3>Soupe aux Crevettes</h3>
+                        <div class="notes">
+                            <div>a</div>
+                            <div>a</div>
+                            <div>a</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_13.JPG" alt="">
+
+                    <div>
+                        <h3>French Fries</h3>
+                        <div class="notes">
+                            <div>a</div>
+                            <div>a</div>
+                            <div>a</div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="Restaurant">
+
+                <div class="food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_19.JPG" alt="">
+
+                    <div class="notes">
+                        <div>a</div>
+                        <div>a</div>
+                        <div>a</div>
+
+                    </div>
+                </div>
+
+
+                <div class="food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_09.JPG" alt="">
+
+
+                    <div>
+                        <h3>Minesao </h3>
+                        <div class="notes">
+                            <div>a</div>
+                            <div>a</div>
+                            <div>a</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_17.JPG" alt="">
+
+                    <div class="notes">
+                        <div>a</div>
+                        <div>a</div>
+                        <div>a</div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_15.JPG" alt="">
+
+                    <div class="notes">
+                        <div>a</div>
+                        <div>a</div>
+                        <div>a</div>
+
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <section class="Restaurant">
+                <div class="Food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_21.JPG" alt="">
+
+                    <div>
+                        <h3>Salades</h3>
+                        <div class="notes">
+                            <div>a</div>
+                            <div>a</div>
+                            <div>a</div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="Food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_23.JPG" alt="">
+
+                    <div>
+                        <h3>Brochettes Fruits de mer</h3>
+                        <div class="notes">
+                            <div>a</div>
+                            <div>a</div>
+                            <div>a</div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Food">
+                    <img src="./assets/LE LOTUS/PLATS/PLATS_27.JPG" alt="">
+
+                    <div class="notes">
+                        <div>a</div>
+                        <div>a</div>
+                        <div>a</div>
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+
+
+            <button> Visit us and discover more</button>
+
+
+
+
+        </section>
+
+
+
+        <section id="Resa">
+            <div class="RESA">
+                <div class="intro2">
+                    <h2>Reservation</h2>
+                    <p>Why would you wait to visit us ? Go ahead and book it for now</p>
+                </div>
+                <section id="Reservation">
+                    <div class="form">
+
+                        <div class="first">
+
+                            <input type="text" placeholder="query type">
+
+                        </div>
+
+                        <div class="complete">
+                            <div class="enter"><input type="text" placeholder="First name"></div>
+                            <div class="enter"><input type="text" placeholder="Last name"></div>
+                        </div>
+
+                        <div class="complete">
+                            <div class="enter"><input type="text" placeholder="Telephone"></div>
+                            <div class="enter"><input type="text" placeholder="Email"></div>
+                        </div>
+
+                        <div class="complete">
+                            <div class="enter"><input type="datetime" placeholder="Check in "></div>
+                            <div class="enter"><input type="datetime" placeholder="Check out"></div>
+                        </div>
+
+                        <div class="complete">
+                            <div class="enter"><input type="text" placeholder="Number of needed room"></div>
+                            <div class="enter"><input type="text" placeholder="Number of occupants"></div>
+                        </div>
+
+                        <div class="comp">
+                            <input type="text" placeholder="Any special Request">
+                        </div>
+
+                        <button> Send</button>
+
+
+                    </div>
+
+                    <div class="map">
+                        <img src="./assets/images/map/bungalow foulpointe.png" alt="">
+                    </div>
+                </section>
+        </section>
+
+    </main>
+
+    <footer>
+
+
+        <section class="foot">
+
+            <div class="logo">
+                <img src="assets/images/ref/logo final ok.png" alt="">
+            </div>
+
+            <div class="rsx">
+                <h3>Contact us</h3>
+                <div class="call"><img src="assets/icon/phone-solid.svg" alt=""> 034 47 752 43 </div>
+                <a href="https://www.google.com/maps/place/Le+Lotus+Bungalow+-+Foulpointe/@-17.6939533,49.5026878,17z/data=!3m1!4b1!4m6!3m5!1s0x21f57bff339da811:0x4b281f12210093c7!8m2!3d-17.6939584!4d49.5052627!16s%2Fg%2F11h6np_z_g?entry=ttu"
+                    class="local"><img src="assets/icon/location-dot-solid.svg" alt=""> Foulpointe, Madagascar</a>
+                <a href="https://web.facebook.com/lelotusfoulpointe"> <img src="assets/icon/facebook.svg" alt=""> Le
+                    Lotus
+                    Bungalow </a>
+            </div>
+
+            <div class="links">
+                <h3>Menu</h3>
+                <a href="#"> Home </a>
+                <a href="#"> Bungalows</a>
+                <a href=""> Contact </a>
+                <a href=""> Book </a>
+
+            </div>
+
+            <div class="book">
+                <h3>Collection</h3>
+
+                <div class="book_image">
+                    <img src="assets/LE LOTUS/Autre photo/footer.jpg" alt="">
+                    <img src="assets/LE LOTUS/Autre photo/footer1.jpg" alt="">
+                </div>
+                <div class="book_image">
+                    <img src="assets/LE LOTUS/Autre photo/footer2.jpg" alt="">
+                    <img src="assets/LE LOTUS/Autre photo/footer3.png" alt="">
+                </div>
+
+            </div>
+            </div>
+
+        </section>
+
+
+    </footer>
+
+    <!-- Script utilities -->
+    <script src="./assets/js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
