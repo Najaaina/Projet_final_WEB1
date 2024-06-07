@@ -743,6 +743,10 @@ video {
   margin: 0px;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -1297,6 +1301,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
@@ -1491,6 +1499,10 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-x-12 {
@@ -2097,10 +2109,6 @@ video {
   padding: 0.75rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
 .pt-16 {
   padding-top: 4rem;
 }
@@ -2652,325 +2660,6 @@ video {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2em;
-}
-
-@keyframes slider {
-  0% {
-    transform: translateX(0);
-  }
-
-  20% {
-    transform: translateX(-20vw);
-  }
-
-  40% {
-    transform: translateX(-40vw);
-  }
-
-  60% {
-    transform: translateX(-60vw);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.all_image img {
-  width: 20vw;
-}
-
-/* Restaurant*/
-
-.intro {
-  background-image: url(../LE\ LOTUS/Autre\ photo/bc.jpg);
-  border-radius: 0 50px 0 0;
-  margin-top: 4%;
-  color: white;
-}
-
-.intro h2 {
-  font-size: 2em;
-  text-align: center;
-}
-
-.Restau_description h3 {
-  font-size: 1.5em;
-}
-
-.Restau_description p {
-  padding-top: 1%;
-  font-size: 1em;
-}
-
-.Restau_description {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.Restau_description img {
-  width: 25vw;
-  padding-bottom: 2%;
-  /* border-radius: 15px; */
-}
-
-.Restaurant {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 2em;
-  padding-top: 2%;
-  padding-left: 2%;
-}
-
-#Restau {
-  border-radius: 0 50px 0 0;
-  background: linear-gradient(#0b132b, #c2baba);
-}
-
-.food {
-  margin-block: 3%;
-}
-
-.Food img {
-  width: 25vw;
-  border-radius: 15px 15px 0 0;
-}
-
-.food,
-.Food {
-  text-align: center;
-  background-color: #c6ddb7;
-  padding-bottom: 2%;
-  border-radius: 15px 15px 0 0;
-}
-
-.food h3 {
-  text-align: center;
-}
-
-.food img {
-  width: 18vw;
-  border-radius: 15px 15px 0 0;
-}
-
-.Food:hover {
-  color: white;
-  background-color: #0b132b;
-  border-radius: 15px;
-  transform: scale(1.1);
-  transition: 0.5s ease-in-out;
-}
-
-.food:hover {
-  color: wheat;
-  background-color: #0b132b;
-  transform: scale(1.2);
-  border-radius: 15px;
-  transition: 0.5s ease-in-out;
-}
-
-.Restaurant .notes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-@keyframes visit {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-#Restau button {
-  cursor: pointer;
-  margin-top: 4%;
-  background-color: #78c146;
-  width: 30vw;
-  height: 7vh;
-  border-radius: 5px;
-  border: none;
-  margin-left: 35%;
-  animation-name: visit;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  margin-bottom: 3%;
-}
-
-.intro2 h2 {
-  font-size: 2em;
-}
-
-.intro2 {
-  margin-top: 4%;
-  text-align: center;
-}
-
-.RESA {
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px)
-}
-
-#Resa {
-  color: white;
-  background-image: url(../LE\ LOTUS/Autre\ photo/bg.jpg);
-}
-
-#Resa input {
-  border: none;
-}
-
-#Resa p {
-  text-align: center;
-  padding-top: 2%;
-}
-
-#Resa h2 {
-  text-align: center;
-}
-
-#Reservation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 2%;
-}
-
-#Reservation .form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.first input {
-  width: 100%;
-  height: 5vh;
-}
-
-.comp input {
-  width: 100%;
-  height: 10vh;
-}
-
-.complete {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 1em;
-}
-
-#Reservation button {
-  background-color: #78C146;
-  width: 7vw;
-  height: 5vh;
-  color: white;
-  align-self: center;
-}
-
-.map img {
-  width: 50vw;
-}
-
-footer {
-  margin-top: 4%;
-  background: linear-gradient(rgb(150, 89, 255), rgb(242, 63, 255));
-  height: 44vh;
-  border-radius: 0 0 40%;
-}
-
-.call {
-  display: flex;
-}
-
-.logo p {
-  text-align: center;
-}
-
-.logo img {
-  width: 15vw;
-}
-
-.foot h3 {
-  font-size: 1.5em;
-}
-
-.foot {
-  padding: 2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.rsx a {
-  display: flex;
-}
-
-.rsx {
-  width: 17vw;
-  font-size: 1em;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  color: black;
-}
-
-.rsx h3 {
-  font-size: 1.5em;
-}
-
-.rsx img {
-  margin-right: 2%;
-  width: 2vw;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.foot a {
-  color: black;
-}
-
-.book h3 {
-  padding-bottom: 5%;
-}
-
-.book img {
-  width: 7vw;
-  /* border-radius: 25%; */
-}
-
-.book_image img {
-  margin-bottom: 2%;
-}
-
-.book_image {
-  display: flex;
-  flex-direction: row;
-  gap: 2%;
-}
-
-.navigation {
-  -webkit-backdrop-filter: blur(2.5px);
-          backdrop-filter: blur(2.5px);
-  z-index: 3 !important;
 }
 
 @media (min-width: 640px) {
