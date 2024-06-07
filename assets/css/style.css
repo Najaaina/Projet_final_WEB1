@@ -59,6 +59,52 @@
 .content {
     background-color: white;
     padding: 10px;
+    transition: 0.4s;
+}
+
+.content:hover {
+    box-shadow: 0 5px 10px 2.5px rgba(0, 0, 0, 0.400);
+}
+
+.columns {
+    float: left;
+    width: 40%;
+    padding: 8px;
+}
+
+
+.price {
+    list-style-type: none;
+    border-color:  #eeeeee;
+    transition: 0.3s;
+}
+
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #0b132b;
+    color: white;
+    font-size: 25px;
+}
+
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #f33cfc;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 900px) {
@@ -69,6 +115,10 @@
 
 @media screen and (max-width: 600px) {
     .column {
+        width: 100%;
+    }
+
+    .columns {
         width: 100%;
     }
 }
